@@ -1,0 +1,35 @@
+/* Footer */
+
+#footer{
+    background-color: #faedeb;
+    text-align: center;
+    padding: 5rem;
+}
+
+#footer input[type=e-mail]{
+    height: 40px;
+    width: 16rem;
+    display: inline;
+}
+
+#options{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black;
+}
+
+#end{
+    background-color: #000000;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}

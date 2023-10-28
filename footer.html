@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./footer.css">
+</head>
+<body>
+    
+     <!-- Footer -->
+
+     <section id="footer">
+        <h1>Subscribe To Make our Offers to reach into your inbox</h1>
+        <p>Join our email list for exclusive offers and the latest news.</p>
+        <input type="e-mail" id="mail" placeholder="Enter your email"> <div class="btn" onclick="validate()" style="width: 11rem; display:inline;">Subscribe</div>
+
+        
+            <div id="options">
+                <a href="./shop.html">Shop </a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact Us</a>
+            </div>   
+    </section>
+
+    <div id="end">
+        <p>Copyright  2023 Color Threads T-Shirts Store | Powered by Color Threads T-Shirts Store</p>
+    </div>
+
+    <script>
+         function validate(){
+            var x = document.getElementById("mail").value ;
+            if(x=='') {
+                alert("Enter valid e - mail") ;
+                return ;
+            }
+        }
+    </script>
+   
+</body>
+</html>

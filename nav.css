@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    align-items: center;
+}
+ 
+@media screen and (max-width: 1130px) {
+    #nav{
+        gap: 0px;
+        justify-content: space-between;
+    }
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem
+}
+
+#nav a:hover{
+    color: #00000099;
+    border-bottom: 1px solid black;
+} 
+
+#nav h1{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-weight: 2rem;
+    text-align: center;
+}
+
+#nav div i{
+    margin-right: 2rem;
+}
+
+

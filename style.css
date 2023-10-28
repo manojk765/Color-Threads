@@ -1,0 +1,258 @@
+#intro{
+    padding: 5.3rem;
+    background-color: #faedeb;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#intro h1{
+    font-size: 55px;
+    margin: 0px;
+}
+
+#intro img{
+    border-radius: 10px;
+    height: 75vh;
+    transform: rotate(20deg);
+    
+}
+
+#intro div{
+    width: 50vh;
+}
+
+.btn {
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .btn:hover {
+    background: #000000;
+    color: #aaaaaa;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 1140px) {
+    #intro img{
+        border-radius: 10px;
+        transform: rotate(0deg);
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    #intro img{
+        width: 100%;
+        height: auto;
+    }
+} 
+
+#cat{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#cat h1{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+#row{
+    padding: 5rem;
+    padding-top: 0;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.col{
+    width: 40vh;
+    height: 50vh;
+}
+
+.col img{
+    width: 100%;
+    height: 100%;
+}
+
+.col h3{
+    font-weight: 3rem;
+}
+
+/* info */
+
+#info{
+    background-image: url("./model.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+#info h3{
+    color: white;
+}
+
+#info p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0px;
+    padding: 30vh;
+    word-spacing: 5px;
+    font-weight: 300;
+}
+
+#info span{
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+/* best selling */
+
+#products{
+    text-align: center;
+}
+
+#products #row{
+    gap: 3rem;
+}
+
+#products h1{
+    font-size: 2rem;
+}
+.product{
+    width: 40vh;
+    height: 40vh;
+    text-align: left;
+}
+
+.product img{
+    width: 100%;
+    height: 80%;
+}
+
+.product h2 {
+    margin: 0px;
+}
+
+/* offer */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.offercol{
+    width: 30rem;
+    padding: 5rem;
+}
+
+.offercol img{
+    transform: rotate(-30deg);
+    z-index: -1;
+}
+
+@media screen and (max-width:890px) {
+    .offercol img{
+        transform: rotate(0deg);
+        z-index: -1;
+        width: 100%;
+    }
+    
+}
+
+/* Reviews */
+#reviews{
+    padding: 5rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color: #717171;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*  */
+
+.mySlides{
+    height: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.mySlides h4{
+    margin: 0px;
+}
+
+.mySlides p{
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+

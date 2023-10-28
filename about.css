@@ -1,0 +1,60 @@
+*{
+    line-height: 1.8rem;
+}
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem;
+    background-color: #f0f4ec;
+}
+
+
+#about div{
+    width: 30rem;
+}
+
+@media screen and (max-width:1050px){
+    #about div{
+        width: 100%;
+    }
+    
+}
+#about div h1{
+    color: #611d44;
+    font-size: 3rem;
+}
+
+#about div p{
+    font-size: 1.1rem;
+    word-spacing: 10px;
+    color: #93536e;
+}
+
+#fashion{
+    background-color: #f0f4ec;
+}
+
+#define{
+    background-color: #611d44;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3rem;
+    color: white;
+}
+
+#define h1{
+    margin: 0px;
+    font-size: 2rem;
+}
+
+
+#define p{
+    font-size: 1.2rem;
+    color: #c3c3ca;
+    word-spacing: 5px;
+}
